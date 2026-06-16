@@ -26,7 +26,6 @@
     cosign
     docker
     ext4fuse ## did not find in brew
-    eza
     fd
     flyctl
     fzf
