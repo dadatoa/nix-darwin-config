@@ -30,6 +30,7 @@
     fd
     flyctl
     fzf
+    gh
     glow
     lazygit
     nmap
