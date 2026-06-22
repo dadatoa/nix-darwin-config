@@ -12,6 +12,7 @@
   outputs = inputs@{ self, nix-darwin, nixpkgs }: {
 
     darwinConfigurations."dadabook" = nix-darwin.lib.darwinSystem {
+      specialArgs = { inherit inputs; };
       modules = [ ./configuration.nix ];
     };
 
