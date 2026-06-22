@@ -24,7 +24,7 @@
   environment.systemPackages = with pkgs; [
     coreutils
     cosign
-    darwin-cli
+    devin-cli
     docker
     ext4fuse ## did not find in brew
     fd
