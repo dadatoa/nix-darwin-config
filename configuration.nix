@@ -42,7 +42,7 @@
     tree-sitter
     wishlist
     ### LSP
-    alaejandra ## nix formatter
+    alejandra ## nix formatter
     lua-language-server    
     ###
   ];
