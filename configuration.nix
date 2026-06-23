@@ -43,7 +43,10 @@
     wishlist
     ### LSP
     alejandra ## nix formatter
-    lua-language-server    
+    lua-language-server   
+    nixd ## lsp nix
+    opentofu-ls
+    yaml-language-server
     ###
   ];
 }
