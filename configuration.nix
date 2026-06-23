@@ -45,7 +45,7 @@
     alejandra ## nix formatter
     lua-language-server   
     nixd ## lsp nix
-    opentofu-ls
+    tofu-ls
     yaml-language-server
     ###
   ];
