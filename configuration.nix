@@ -1,10 +1,6 @@
-{ pkgs
-, inputs
-, ...
-}:
+{ pkgs, ... }:
 {
-  imports =
-  [
+  imports = [
     ./settings.nix
     ./usefull_tools.nix
   ];
@@ -26,7 +22,7 @@
     cosign
     devin-cli
     docker
-    ext4fuse ## did not find in brew
+    ext4fuse # # did not find in brew
     fd
     flyctl
     forgejo-cli
@@ -45,9 +41,10 @@
     tree-sitter
     wishlist
     ### LSP
-    alejandra ## nix formatter
-    lua-language-server   
-    nixd ## lsp nix
+    alejandra # # nix formatter
+    lua-language-server
+    nixd # lsp nix
+    nil # lsp nil needed for nix lsp in zed
     tofu-ls
     yaml-language-server
     ###
