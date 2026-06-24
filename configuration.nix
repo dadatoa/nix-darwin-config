@@ -48,5 +48,8 @@
     tofu-ls
     yaml-language-server
     ###
+    ### tree-sitter
+    pkgs.tree-sitter # The CLI tool
+    pkgs.tree-sitter-grammars.tree-sitter-astro # Standalone Astro grammar
   ];
 }
