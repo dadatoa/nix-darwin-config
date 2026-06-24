@@ -29,11 +29,14 @@
     ext4fuse ## did not find in brew
     fd
     flyctl
+    forgejo-cli
     fzf
     gh
+    # ghostty # broke - install with homebrew
     glow
     lazygit
-    nmap
+    mosh
+    opencode
     opentofu
     rclone
     ripgrep
@@ -49,7 +52,8 @@
     yaml-language-server
     ###
     ### tree-sitter
-    pkgs.tree-sitter # The CLI tool
-    pkgs.tree-sitter-grammars.tree-sitter-astro # Standalone Astro grammar
+    # tree-sitter # The CLI tool
+    # tree-sitter-grammars.tree-sitter-astro # Standalone Astro grammar
+    # tree-sitter-grammars.tree-sitter-markdown
   ];
 }
