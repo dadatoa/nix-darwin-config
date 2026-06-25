@@ -18,6 +18,7 @@
   # intall with tailscale standalone version
 
   environment.systemPackages = with pkgs; [
+    ansible
     coreutils
     cosign
     devin-cli
